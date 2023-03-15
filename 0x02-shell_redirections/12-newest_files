@@ -1,2 +1,2 @@
 #!/bin/bash
-(f'{f}\t{mod_time_str}')
+ls -t
