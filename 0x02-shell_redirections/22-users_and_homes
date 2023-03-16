@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F /etc/passwd
+awk /etc/passwd
