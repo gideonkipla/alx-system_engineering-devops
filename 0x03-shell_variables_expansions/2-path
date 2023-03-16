@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$PATH./2-path"
+echo $PATH. /action
