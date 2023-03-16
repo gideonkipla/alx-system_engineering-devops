@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -h betty:/etc/passwd _hello
+grep -c bin /etc/passwd
