@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' {a..z}{a..z} | grep -v 'oo' | grep -v '^o.$' | grep -v '^n.$'
+[[ "$a$b" != "oo" ]] echo "$a$b" | grep -v '^o.$' | grep -v '^n.$'
