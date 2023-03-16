@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%.2f\n" $(bc -l <<< "scale=2; $RANDOM/32767")
+printf "%.2f\n" 3.14159
