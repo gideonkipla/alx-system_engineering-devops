@@ -1,2 +1,3 @@
 #!/bin/bash
-[[ "$a$b" != "oo" ]] echo "$a$b" | grep -v '^o.$' | grep -v '^n.$'
+paste -d'\n' <(printf '%s\n' {a..z}{a..n} | grep -v oo) <(printf '%s\n' {a..z}{p..z}) | sort
+
