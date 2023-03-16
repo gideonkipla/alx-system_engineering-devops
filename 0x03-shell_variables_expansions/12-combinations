@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d'\n' <(printf '%s\n' {a..z}{a..n} | grep -v oo) <(printf '%s\n' {a..z}{p..z}) | sort
+printf '%s\n' {a..z}{a..z} | grep -v 'oo' | grep -v 'o.$' | sort
