@@ -1,2 +1,2 @@
 #!/bin/bash
-output=$(echo $input | sed 's/A/Z/g; s/c/e/g')
+sed 's/A/Z/g; s/c/e/g'
