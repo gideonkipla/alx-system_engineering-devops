@@ -1,0 +1,2 @@
+#!/bin/bash
+for a in {a..n}; do for b in {a..z}; do echo $a$b; done; done; for a in {o..z}; do for b in {a..z}; do echo $a$b; done; done | grep -v oo
