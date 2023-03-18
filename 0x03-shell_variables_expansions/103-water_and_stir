@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%o\n' $(( 5#$( echo $WATER | tr water 01234) + 5#$( echo $STIR | tr stir. 01234 ) )) | tr bestchol
+echo $(dc -e "${water_base:-water}${water_num:-0} ${stir_base:-stir}${stir_num:-0}+10o${bestchol_base:-bestchol}i?p")
