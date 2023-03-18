@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $input_str | tr -d 'cC'
+tr -d cC
