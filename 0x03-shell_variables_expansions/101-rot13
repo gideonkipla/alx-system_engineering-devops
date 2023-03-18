@@ -1,2 +1,2 @@
 #!/bin/bash
-ge 'N-Mn-m' 'A-MN-Za-mn-z' < vachg.gkg > bhgchg.gkg
+echo "$1" | tr 'a-zA-Z' 'n-za-mN-ZA-M'
