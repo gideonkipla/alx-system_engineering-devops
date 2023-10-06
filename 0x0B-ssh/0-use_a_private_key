@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Define server information
+server_ip="339609-web-01"
+user="ubuntu"
+private_key="~/.ssh/school"
+
+ssh -i ~/.ssh/school ubuntu@339609-web-01
