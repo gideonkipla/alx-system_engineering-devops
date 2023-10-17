@@ -5,4 +5,4 @@ server_ip="339609-web-01"
 user="ubuntu"
 private_key="~/.ssh/school"
 
-ssh -i ~/.ssh/school ubuntu@339609-web-01
+ssh -i ~/.ssh/school ubuntu@$server
